@@ -1,0 +1,57 @@
+
+/*
+body { background-color:#003366; color:#FFFFFF;}
+.style1 {font-size: 300px; color:#FFCC00;}
+*/
+
+body {
+    cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+h1 {
+    color: #fff;
+	display: block;
+	font-family: "Trebuchet MS";
+	font-size: 25px;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	border-color: #0c63ee;
+    background-color: #387ef5;
+    background-image: linear-gradient(0deg, #0c63ee, #0c63ee 50%, transparent 50%);
+    
+}
+
+#contestants {
+    font-family: "Trebuchet MS";
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#contestants td, #contestants th {
+    font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+
+#contestants th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: white;
+}
+
+#contestants tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+
+
